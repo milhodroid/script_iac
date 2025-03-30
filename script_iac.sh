@@ -24,7 +24,7 @@ useradd roberto -m -c "Roberto" -s /bin/bash -p $(openssl passwd Senha123) -G GR
 
 useradd josefina -m -c "Josefina" -s /bin/bash -p $(openssl passwd Senha123) -G GRP_SEC
 useradd amanda -m -c "Amanda" -s /bin/bash -p $(openssl passwd Senha123) -G GRP_SEC
-useradd roberto -m -c "Roberto" -s /bin/bash -p $(openssl passwd Senha123) -G GRP_SEC
+useradd rogerio -m -c "Roberto" -s /bin/bash -p $(openssl passwd Senha123) -G GRP_SEC
 
 echo "Setting passwords to be modified at first login"
 passwd carlos -e
@@ -35,7 +35,7 @@ passwd sebastiana -e
 passwd roberto -e
 passwd josefina -e
 passwd amanda -e
-passwd roberto -e
+passwd rogerio -e
 
 echo "Setting folders owners"
 chown root:root /publico
